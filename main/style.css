@@ -96,3 +96,39 @@ a {
     border-width: 2px;
     border-style: solid;
 }
+
+.aboutme {
+    margin-top: 2.5%;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #222222;
+    font-weight: bold;
+    border-radius: 173px;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    padding: 20px 20px;
+}
+
+#introme,
+#quote,
+#summary{
+    margin-left: 10%;
+    margin-top: -16px;
+    margin-right: 10%;
+}
+
+#introme {
+    font-size: 300%;
+}
+
+#quote {
+    color: #757471;
+    font-size: 150%
+}
+
+#summary {
+    margin-top: .2%;
+    margin-bottom: 2%;
+    font-size: 125%;
+}
