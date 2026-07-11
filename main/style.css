@@ -17,7 +17,6 @@ body {
 }
 
 .page-navs {
-    font-family: 'Cookie Run';
     font-weight: bolder;
     font-size: 20px;
     padding: 10px 0px 10px 0px;
@@ -30,7 +29,9 @@ body {
     color: white;
 }
 
-.home {
+.home,
+.Projects,
+.contacts {
     margin-left: 100px;
     margin-right: 100px;
     background-color: #222222;
@@ -42,10 +43,16 @@ body {
     padding: 20px 20px;
 }
 
+.Projects,
+.contacts {
+    margin-top: 2%;
+}
+
 #intro{
     margin-left: 10%;
     margin-top: -16px;
 }
+
 .greet,
 .Fname{
     font-size: 50px;
@@ -67,7 +74,9 @@ body {
     align-items: center;
 }
 
-.nav img {
+.social-contacts img,
+.nav img,
+.repositories img {
     width: 50px;
     height: 50px;
     background-color:#353535;
@@ -84,8 +93,9 @@ a {
 }
 
 .pic {
-    display: absolute;
-    margin-top: -220px;
+    display: flex;
+    margin-top: -210px;
+    margin-bottom: 5%;
     margin-left: 70%;
 }
 
@@ -97,29 +107,17 @@ a {
     border-style: solid;
 }
 
-.aboutme {
-    margin-top: 2.5%;
-    margin-left: 100px;
-    margin-right: 100px;
-    background-color: #222222;
-    font-weight: bold;
-    border-radius: 173px;
-    border-color: white;
-    border-width: 2px;
-    border-style: solid;
-    padding: 20px 20px;
-}
-
 #introme,
 #quote,
-#summary{
-    margin-left: 10%;
-    margin-top: -16px;
-    margin-right: 10%;
+#summary,
+#myprojects,
+#contact-header,
+#repo-header {
+    font-size: 300%;
 }
 
 #introme {
-    font-size: 300%;
+    margin-bottom: .2%;
 }
 
 #quote {
@@ -128,7 +126,87 @@ a {
 }
 
 #summary {
-    margin-top: .2%;
-    margin-bottom: 2%;
+    margin-bottom: .2%;
     font-size: 125%;
+}
+
+#introme,
+#quote,
+#summary,
+#myprojects,
+.Portfolio-Website,
+#contact-header,
+.social-contacts {
+    margin-left: 10%;
+    margin-top: -16px;
+    margin-right: 10%;
+}
+
+.portfolio {
+    margin-top: 2%;
+    width: 35%;
+}
+
+#port-title,
+#port-description,
+#linkedin-name,
+#gmail-name {
+    display: inline-flex;
+    vertical-align: top;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+#port-title {
+    font-size: 125%;
+}
+
+#port-description {
+    margin-left: -17.5%;
+    margin-top: 6%;
+}
+
+#gmail-contact {
+    display: block;
+}
+
+#gmail-name {
+    margin-left: 9%;
+    margin-top: -5%;
+}
+
+.contacts {
+    display: absolute;
+    align-content: center;
+}
+
+.social-contacts p,
+.repositories p {
+    font-size: 125%;
+}
+
+#repo-header {
+    text-align: right;
+    margin-right: 20%;
+    margin-top: -8%;
+    display: absolute;
+}
+
+.repositories {
+    display: flex;
+    margin-left: 55%;
+    margin-top: -15.7%;
+    margin-bottom: 8%;
+}
+
+#repo1{
+    display: block;
+    margin-left: 50%;
+    margin-top: -38%;
+    text-wrap: nowrap;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: white;
 }
