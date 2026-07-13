@@ -110,13 +110,15 @@ a {
 #introme,
 #quote,
 #summary,
+#TStack,
 #myprojects,
 #contact-header,
 #repo-header {
     font-size: 300%;
 }
 
-#introme {
+#introme,
+#TStack {
     margin-bottom: .2%;
 }
 
@@ -134,12 +136,34 @@ a {
 #quote,
 #summary,
 #myprojects,
+.Tech-Stack,
 .Portfolio-Website,
 #contact-header,
 .social-contacts {
     margin-left: 10%;
     margin-top: -16px;
     margin-right: 10%;
+}
+
+.Tech-Logo img {
+    width: 25%;
+    height: auto;
+}
+
+.html,
+.css,
+.js {
+    background-color: #353535;
+    padding: .4%; 
+    border-radius: 6%;
+    display: inline-flex;
+    align-items: center;
+    gap: 3%;
+    margin-right: 85%;
+}
+
+#html5 {
+    margin-left: 0;
 }
 
 .portfolio {
