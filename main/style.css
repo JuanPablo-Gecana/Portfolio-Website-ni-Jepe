@@ -146,20 +146,29 @@ a {
 }
 
 .Tech-Logo img {
-    width: 25%;
-    height: auto;
+    width: 15%;
+}
+
+.Tech-Logo {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
+
+.css img {
+    width: 20%;
 }
 
 .html,
 .css,
 .js {
     background-color: #353535;
-    padding: .4%; 
-    border-radius: 6%;
-    display: inline-flex;
+    display: flex;
     align-items: center;
-    gap: 3%;
-    margin-right: 85%;
+     gap: 3%;
+    padding: .4%;
+    border-radius: 6%;
 }
 
 #html5 {
