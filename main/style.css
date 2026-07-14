@@ -175,6 +175,10 @@ a {
     margin-left: 0;
 }
 
+#myprojects {
+    margin-top: .2%;
+}
+
 .portfolio {
     margin-top: 2%;
     width: 35%;
