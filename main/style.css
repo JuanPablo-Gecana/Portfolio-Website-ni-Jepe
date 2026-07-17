@@ -37,9 +37,6 @@ body {
     background-color: #222222;
     font-weight: bold;
     border-radius: 173px;
-    border-color: white;
-    border-width: 2px;
-    border-style: solid;
     padding: 20px 20px;
 }
 
@@ -102,6 +99,12 @@ a {
 .pic img {
     width: 200px;
     border-radius: 150px;
+}
+
+.home,
+.Projects,
+.contacts,
+.pic img {
     border-color: white;
     border-width: 2px;
     border-style: solid;
